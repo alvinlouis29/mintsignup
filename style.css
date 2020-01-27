@@ -151,6 +151,14 @@ header {
 header .main-icon {
   padding: 4px 0;
 }
+.icons-set{
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    margin-right: 4px;
+    position: relative;
+}
+
 .icons-set span{
   font-family: Montserrat, sans-serif;
   color: #8d9096;
