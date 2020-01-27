@@ -109,16 +109,20 @@ ol,
 ul {
   list-style: none;
 }
-body{
-    background-color: #ECEEF1;
+
+blockquote,
+q {
+  quotes: none;
 }
 
-h2 {
-  color: #4c4c4c;
-  line-height: 1.1;
-  font-size: 24px;
-  padding: 30px 0;
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -131,10 +135,6 @@ table {
 
 a {
   text-decoration: none;
-}
-
-body {
-  display: block;
 }
 
 nav {
@@ -166,7 +166,7 @@ nav p {
   font-family: "Nunito", sans-serif;
 }
 
-.para {
+.nav-desc {
   padding-right: 6px;
 }
 
@@ -175,15 +175,17 @@ nav p {
   color: #8d9096;
 }
 
-.container-content {
-  display: flex;
-  justify-content: center;
-  background: #eceef1;
+h2 {
+  color: #4c4c4c;
+  line-height: 1.1;
+  font-size: 24px;
+  padding: 30px 0;
 }
-.inner {
-  width: 380px;
-  text-align: center;
-  background: #fc8b83;
+
+section {
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  font-family: "Nunito", sans-serif;
 }
 
 .header-closure {
@@ -191,31 +193,102 @@ nav p {
   font-size: 14px;
 }
 
+footer a {
+  color: #505050;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header-closure a {
+  font-size: 12px;
+}
+
+.container-content {
+  display: flex;
+  justify-content: center;
+  background: #eceef1;
+}
+
+.inputs {
+  display: inline-block;
+  width: 70%;
+  text-align: left;
+}
+
+.inner {
+  width: 380px;
+  text-align: center;
+  background: #fc8b83;
+}
+
+.inputs input[type="email"],
+.inputs input[type="tel"],
+.inputs input[type="password"] {
+  height: 34px;
+  width: 320px;
+  border: #c1c5c8 solid 1px;
+  border-radius: 4px;
+}
+
+.inputs label {
+  display: inline-block;
+  margin-top: 22px;
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.phone-message span {
+  font-size: 10px;
+  color: #444;
+}
+
 header {
-  position:absolute;
   padding: 20px 0;
   background: #eceef1;
-  margin-top: 40px;
 }
 
 header .main-icon {
   padding: 4px 0;
 }
 
-
-section {
-  background-color: #fff;
-  border: 1px solid #c7c7c7;
-  font-family: "Nunito", sans-serif;
+fieldset button {
+  width: 320px;
+  height: 44px;
+  border: none;
+  color: white;
+  font-size: 15.75px;
 }
+
+.btn-field {
+  padding: 30px 12px;
+}
+
+.terms {
+  display: inline-block;
+  font-style: italic;
+  color: #7c7c7c;
+  line-height: 1.8;
+  font-size: 13px;
+  width: 273.06px;
+  margin: 2px 0;
+  padding-bottom: 20px;
+}
+
+.captcha {
+  background: #eceef1;
+  font-size: 10px;
+}
+
 footer {
   text-align: center;
   padding: 20px 0;
   background: #eceef1;
 }
-footer a {
-  color: #505050;
-}
+
 footer ul {
   padding: 5px 0 0;
   font-size: 12px;
@@ -227,7 +300,6 @@ footer ul li {
 }
 
 footer a:hover {
-  color: #505050;
   text-decoration: underline;
 }
 
@@ -236,4 +308,11 @@ footer p {
   color: #505050;
   word-spacing: 2px;
   font-family: "Nunito", sans-serif;
+}
+
+.captcha p {
+  padding: 20px 0;
+  width: 320px;
+  color: #7c7c7c;
+  display: inline-block;
 }
