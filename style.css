@@ -110,19 +110,6 @@ ul {
   list-style: none;
 }
 
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote::before,
-blockquote::after,
-q::before,
-q::after {
-  content: "";
-  content: none;
-}
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -211,11 +198,7 @@ a:hover {
   background: #eceef1;
 }
 
-.inputs {
-  display: inline-block;
-  width: 70%;
-  text-align: left;
-}
+
 
 .inner {
   width: 380px;
@@ -223,28 +206,6 @@ a:hover {
   background: #fc8b83;
 }
 
-.inputs input[type="email"],
-.inputs input[type="tel"],
-.inputs input[type="password"] {
-  height: 34px;
-  width: 320px;
-  border: #c1c5c8 solid 1px;
-  border-radius: 4px;
-}
-
-.inputs label {
-  display: inline-block;
-  margin-top: 22px;
-  font-weight: 400;
-  color: #404040;
-  font-size: 14px;
-  line-height: 25px;
-}
-
-.phone-message span {
-  font-size: 10px;
-  color: #444;
-}
 
 header {
   padding: 20px 0;
@@ -263,25 +224,6 @@ fieldset button {
   font-size: 15.75px;
 }
 
-.btn-field {
-  padding: 30px 12px;
-}
-
-.terms {
-  display: inline-block;
-  font-style: italic;
-  color: #7c7c7c;
-  line-height: 1.8;
-  font-size: 13px;
-  width: 273.06px;
-  margin: 2px 0;
-  padding-bottom: 20px;
-}
-
-.captcha {
-  background: #eceef1;
-  font-size: 10px;
-}
 
 footer {
   text-align: center;
@@ -310,9 +252,4 @@ footer p {
   font-family: "Nunito", sans-serif;
 }
 
-.captcha p {
-  padding: 20px 0;
-  width: 320px;
-  color: #7c7c7c;
-  display: inline-block;
-}
+
