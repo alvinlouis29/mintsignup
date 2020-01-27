@@ -70,7 +70,6 @@ footer,
 header,
 hgroup,
 menu,
-nav,
 output,
 ruby,
 section,
@@ -95,7 +94,37 @@ footer,
 header,
 hgroup,
 menu,
-nav,
 section {
   display: block;
+}
+
+nav{
+    width: 350px;
+    height: auto;
+    display: inline-flex;
+    position: absolute;
+    left: 1020px;
+    top: 0px;
+
+}
+
+nav a{
+    text-decoration: none;
+}
+nav button{
+    background-color: #0077C5;
+    width: 80px; 
+    padding: 10px; 
+    border-radius: 5px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.para{
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 10px; 
+    width: 20px;
+    margin-left: 10px;
 }
