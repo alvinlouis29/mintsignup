@@ -146,6 +146,7 @@ header {
   position:absolute;
   padding: 20px 0;
   background: #eceef1;
+  margin-top: 40px;
 }
 
 header .main-icon {
