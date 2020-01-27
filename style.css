@@ -156,3 +156,48 @@ header .main-icon {
   font-family: Montserrat, sans-serif;
   color: #8d9096;
 }
+footer center{
+    background-color:#ECEEF1;
+
+}
+footer center ul{
+    display: inline-flex;
+    margin-right: 90px;
+    
+}
+
+footer center ul li{
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+footer center ul li a{
+  color:rgb(100, 102, 109);
+   cursor: pointer;
+
+}
+footer center ul li a:hover{
+    text-decoration: underline;
+ 
+ }
+
+footer p{
+    text-align: center;
+    width: 790px; 
+    margin-top: 0px;
+    font-size: 14px;
+    color: #735074;
+    color:rgb(100, 102, 109);
+
+}
+.logo{
+  display: inline;
+  justify-content: center;
+  
+}
+.logo-name{
+  
+  vertical-align: middle;
+  height: 100%;
+ 
+}
