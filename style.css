@@ -132,3 +132,26 @@ nav button{
     width: 20px;
     margin-left: 10px;
 }
+.container-content {
+  display: flex;
+  justify-content: center;
+  background: #eceef1;
+}
+.inner {
+  width: 380px;
+  text-align: center;
+  background: #fc8b83;
+}
+header {
+  position:absolute;
+  padding: 20px 0;
+  background: #eceef1;
+}
+
+header .main-icon {
+  padding: 4px 0;
+}
+.icons-set span{
+  font-family: Montserrat, sans-serif;
+  color: #8d9096;
+}
