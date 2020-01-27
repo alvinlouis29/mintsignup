@@ -98,6 +98,10 @@ section {
   display: block;
 }
 
+body{
+    background-color: #ECEEF1;
+}
+
 nav{
     width: 350px;
     height: auto;
