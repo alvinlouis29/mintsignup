@@ -123,7 +123,7 @@ table {
 
 a{
   text-decoration: none;
-  color: #0077C5;
+  color: #0077c5;
 }
 a:hover{
   text-decoration: none;
@@ -179,6 +179,21 @@ section {
   background-color: #fff;
   border: 1px solid #c7c7c7;
   font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  border-bottom: 0;
+}
+
+.base-box{
+  width: 100%;
+  background-color: #eceef1;
+  height: auto;
+  border: 1px solid #c7c7c7;
+  border-top: 0;
+}
+
+.base-box p{
+  font-size: 11px;
+  padding: 20px 16px;
+  color: #A690A2;
 }
 
 .header-closure {
