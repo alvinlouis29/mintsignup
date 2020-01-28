@@ -1,0 +1,253 @@
+<<<<<<< HEAD
+=======
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background: #eceef1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 30px;
+}
+
+button {
+  background: linear-gradient(to bottom, #0077c5 0, #167ccc 100%);
+  border-radius: 4px;
+}
+
+nav button {
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  width: 102.36px;
+  height: 34px;
+  color: #fff;
+  font-size: 13px;
+}
+
+nav p {
+  font-size: 12px;
+  color: #505050;
+  padding: 3px 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.nav-desc {
+  padding-right: 6px;
+}
+
+.icons-set span {
+  font-family: Montserrat, sans-serif;
+  color: #8d9096;
+}
+
+h2 {
+  color: #4c4c4c;
+  line-height: 1.1;
+  font-size: 24px;
+  padding: 30px 0;
+}
+
+section {
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  font-family: "Nunito", sans-serif;
+}
+
+.header-closure {
+  color: #4c4c4c;
+  font-size: 14px;
+}
+
+footer a {
+  color: #505050;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header-closure a {
+  font-size: 12px;
+}
+
+.container-content {
+  display: flex;
+  justify-content: center;
+  background: #eceef1;
+}
+
+
+
+.inner {
+  width: 380px;
+  text-align: center;
+  background: #fc8b83;
+}
+
+
+header {
+  padding: 20px 0;
+  background: #eceef1;
+}
+
+header .main-icon {
+  padding: 4px 0;
+}
+
+.icons-set span{
+  font-family: Montserrat, sans-serif;
+  color: #8d9096;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #eceef1;
+}
+
+footer ul {
+  padding: 5px 0 0;
+  font-size: 12px;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 4px 8px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 12px;
+  color: #505050;
+  word-spacing: 2px;
+  font-family: "Nunito", sans-serif;
+}
+
+>>>>>>> bbb8933b567f806173b17cf94c01adbbc5b62d5c
