@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 html,
 body,
 div,
@@ -105,6 +103,7 @@ section {
 
 body {
   line-height: 1;
+  background: #eceef1;
 }
 
 ol,
@@ -197,7 +196,7 @@ a:hover {
 .container-content {
   display: flex;
   justify-content: center;
-  background: #eceef1;
+  
 }
 
 
@@ -250,4 +249,3 @@ footer p {
   font-family: "Nunito", sans-serif;
 }
 
->>>>>>> bbb8933b567f806173b17cf94c01adbbc5b62d5c
