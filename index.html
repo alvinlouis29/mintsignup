@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&display=swap" />
     <script src="https://kit.fontawesome.com/e624daa50c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   
@@ -22,7 +21,7 @@
             <div>
                 <div class= "btn">
                     <button type="button"><i class="fas fa-lock-alt"></i>
-                        Sign in</button>
+                        <i class="fas fa-lock"></i>  Sign in</button>
                 </div>
             </div>
         </nav>
@@ -50,17 +49,22 @@
                         <p><a href="#">Learn more</a></p>
                     </div>
                     <form>
-                        <label for="fname">Email address</label>
-                        <input type="text" name="email" >
+                        <div>
+                            <p>Email address</p>
+                            <input type="text" name="email" >
+                        </div>
 
-                        <label for="fname">
-                            Phone (recommended)</label>
-                        <input type="text" name="phone" >
+                        <div class="space">
+                            <p>Phone (recommended)</p>    
+                            <p><input type="text" name="phone" ><br ><span class="sub-text">Standard call, messaging or data rates may apply.</span></p>
+                        </div>
 
-                        <label for="fname">Password</label>
-                        <input type="text" name="email" >
+                        <div class="space">
+                            <p>Password</p>
+                           <input type="text" name="email" >
+                        </div>
 
-                        <button type="submit">Create Account</button>
+                        <button type="submit" class="submit"><i class="fas fa-lock"></i> Create Account</button>
 
                     </form>
 
