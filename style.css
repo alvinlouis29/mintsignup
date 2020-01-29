@@ -269,13 +269,6 @@ footer a:hover {
   justify-content: center;
 }
 
-.captcha p {
-  padding: 20px 0;
-  width: 320px;
-  color: #7c7c7c;
-  display: inline-block;
-}
-
 .inner {
   width: 380px;
   text-align: center;
@@ -317,4 +310,11 @@ footer ul {
 footer ul li {
   display: inline-block;
   padding: 4px 8px;
+}
+
+.captcha p {
+  padding: 20px 0;
+  width: 320px;
+  color: #7c7c7c;
+  display: inline-block;
 }
