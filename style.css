@@ -64,7 +64,7 @@ a {
 }
 
 nav a {
-  color:#0077c5;
+  color: #0077c5;
   font-size: 12px;
   font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin-left: -6px;
@@ -267,7 +267,7 @@ main {
 .inner {
   width: 380px;
   text-align: center;
-  background: #fc8b83; 
+  background: #fc8b83;
 }
 
 header {
