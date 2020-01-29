@@ -111,6 +111,10 @@ ul {
   list-style: none;
 }
 
+footer a {
+  color: #505050;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -133,6 +137,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   padding: 10px 30px;
+  font-family: AvenirNext,Avenir, Helvetica Neue, Helvetica,Arial, sans-serif;
 }
 
 button {
@@ -177,7 +182,7 @@ h2 {
 section {
   background-color: #fff;
   border: 1px solid #c7c7c7;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: AvenirNext,Avenir, Helvetica Neue, Helvetica,Arial, sans-serif;
 }
 
 .header-closure {
@@ -199,7 +204,7 @@ form p {
   text-align: left;
   font-size: 14px;
   margin-bottom: 4px;
-  font-family: AvenirNext, Avenir,Helvetica;
+  font-family: AvenirNext, Avenir, Helvetica;
   color: #404040;
 }
 
@@ -222,7 +227,7 @@ input[type=text] {
 
 .submit {
   width: 100%;
-  background-color: #0B7Ac9;
+  background-color: #0B7ac9;
   color: white;
   padding: 14px 20px;
   margin: 20px 0;
@@ -231,7 +236,7 @@ input[type=text] {
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
-  font-family: AvenirNext, Avenir,Helvetica;
+  font-family:Helvetica;
 }
 
 .terms {
@@ -244,14 +249,9 @@ input[type=text] {
   text-align: center;
   font-size: 12px;
   color: #757575;
-  font-family: AvenirNext, Avenir,Helvetica;
+  font-family:  Helvetica;
   font-style: italic;
   margin-bottom: 7px;
-}
-
-
-footer a {
-  color: #505050;
 }
 
 footer a:hover {
@@ -325,7 +325,3 @@ footer p {
   word-spacing: 2px;
   font-family: "Nunito", sans-serif;
 }
-
-
-
-
