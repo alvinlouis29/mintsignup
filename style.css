@@ -144,6 +144,7 @@ section {
   background-color: #fff;
   border: 1px solid #c7c7c7;
   font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-top: -10px;
 }
 
 .header-closure {
@@ -175,7 +176,29 @@ form p {
   margin-top: 3px;
 }
 
-input[type=text] {
+input[type=email] {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 9px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+input[type=tel] {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 9px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+input[type=password] {
   width: 100%;
   padding: 8px 20px;
   margin: 9px 0;
@@ -250,6 +273,7 @@ footer a:hover {
   width: 380px;
   text-align: center;
   background: #fc8b83;
+  
 }
 
 header {
