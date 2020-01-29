@@ -140,7 +140,7 @@ h2 {
   font-weight: 400;
 }
 
-main {
+section {
   background-color: #fff;
   border: 1px solid #c7c7c7;
   font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -226,12 +226,6 @@ input[type=password] {
 }
 
 
-#unlock{
-  float: right;
-  color: rgb(252, 238, 238);
-  font-size: 20px;
-}
-
 .submit {
   width: 100%;
   background-color: #0b7ac9;
@@ -269,7 +263,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-.container-content {
+main {
   display: flex;
   justify-content: center;
 }
