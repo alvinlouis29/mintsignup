@@ -131,7 +131,9 @@ nav a{
   color:#0077C5;
   font-size: 12px;
   font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-left: -6px;
 }
+
 
 footer a {
   color: #505050;
@@ -248,6 +250,24 @@ input[type=text] {
   text-align: left;
 }
 
+.pass-input{
+  width: 100%;
+  padding: 7px 18px;
+  margin: 9px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+  background: #ffffff;
+}
+
+#unlock{
+  float: right;
+  color: rgb(252, 238, 238);
+  font-size: 20px;
+}
+
 .submit {
   width: 100%;
   background-color: #0b7ac9;
@@ -309,7 +329,8 @@ footer p {
   font-size: 12px;
   color: #505050;
   word-spacing: 2px;
-  font-family: "Nunito", sans-serif;
+  font-family: AvenirNext, Avenir, Helvetica, sans-serif;
+  margin-top: 5px;
 }
 
 .captcha {
@@ -330,7 +351,10 @@ footer ul {
 
 footer ul li {
   display: inline-block;
-  padding: 4px 8px;
+  padding: 4px 5px;
+  color: #505050;
+  font-size: 12px;
+  font-family: AvenirNext, Avenir, Helvetica, sans-serif;
 }
 
 .captcha p {
