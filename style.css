@@ -207,6 +207,10 @@ input[type=password] {
   border-radius: 4px;
   box-sizing: border-box;
   text-align: left;
+  background: url(images/unlock.PNG) no-repeat scroll 7px 7px;
+  padding-left:30px;
+  background-position: right;
+  
 }
 
 .pass-input{
@@ -220,6 +224,7 @@ input[type=password] {
   text-align: left;
   background: #ffffff;
 }
+
 
 #unlock{
   float: right;
