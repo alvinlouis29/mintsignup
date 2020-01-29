@@ -147,6 +147,7 @@ nav {
   justify-content: flex-end;
   padding: 10px 30px;
   font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-top: 2px;
 }
 
 button {
