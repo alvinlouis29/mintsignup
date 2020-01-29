@@ -99,6 +99,7 @@ menu,
 nav,
 section {
   display: block;
+  margin-top: -10px;
 }
 
 body {
@@ -172,11 +173,24 @@ nav p {
 
 .para {
   padding-right: 6px;
+  font-size: 12px;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #505050;
 }
 
-.icons-set span {
+.icons-set {
+  display: inline-flex;
   font-family: Montserrat, sans-serif;
   color: #8d9096;
+}
+
+.icons-set span{
+  margin-top:8px;
+  
+}
+
+.icons-set div{
+  margin-left: 2px;
 }
 
 h2 {
