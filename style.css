@@ -126,6 +126,12 @@ a {
   color: #0077c5;
 }
 
+nav a{
+  color:#0077C5;
+  font-size: 12px;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
 footer a {
   color: #505050;
 }
